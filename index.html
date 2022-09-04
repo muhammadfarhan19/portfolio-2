@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Farhan | HOMEPAGE</title>
+  </head>
+  <body class="bg-dark">
+    <!-- navbar -->
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark text-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">FARHAN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <a class="nav-link" href="/profile">Profile</a>
+            <li class="nav-item"></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Others</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/project">Project</a></li>
+                <li><a class="dropdown-item" href="/contact">Contact</a></li>
+                <li><a class="dropdown-item" href="/sosmed">Sosmed</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- contents 1 -->
+    <div class="container-fluid text-light" style="height: auto">
+      <!-- carousel img -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/prog-1.jpg" class="d-block w-100" alt="Programmer" style="height: 500px" />
+            <div class="carousel-caption">
+              <h5>Lorem, ipsum dolor.</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, vitae.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/prog-2.jpg" class="d-block w-100" alt="Programmer" style="height: 500px" />
+            <div class="carousel-caption">
+              <h5>Lorem, ipsum dolor.</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, neque.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/prog-3.jpg" class="d-block w-100" alt="Programmer" style="height: 500px" />
+            <div class="carousel-caption">
+              <h5>Lorem, ipsum dolor.</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iure.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel img end -->
+
+      <div class="row text-center align-items-center mt-4">
+        <div class="col-12">
+          <img src="/assets/avatar.png" alt="My Image" width="150" height="150" />
+          <h2 class="mt-2">Farhan Hamidie</h2>
+          <i>Front-End Developer || Sofware Engineer</i>
+        </div>
+      </div>
+      <div class="row mt-4 text-dark">
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">My Projects</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, libero.</p>
+              <a href="/project" class="btn btn-dark d-block">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Lorem, ipsum dolor.</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, libero.</p>
+              <a href="/contact" class="btn btn-dark d-block">Contact Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Lorem, ipsum dolor.</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, libero.</p>
+              <a href="/sosmed" class="btn btn-dark d-block">Social Media</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content 1 end -->
+
+    <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
